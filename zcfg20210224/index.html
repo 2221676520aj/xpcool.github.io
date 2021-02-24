@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="img/logo.ico" type="img/x-ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我爱我家</title>
+    <link rel="stylesheet" href="css/bootstrap.js" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑'
+        }
+        .banner {
+            width: 100%;
+            position: relative;
+        }
+        .banner>img {
+            display: block;
+        }
+        .container-fluid {
+            background-image: url(img/j1.png);
+            background-size: 100%;
+        }
+        .bs {
+            border-radius: 5px;
+            background-color: #fff;
+            color: #666;
+            margin-bottom: 50px;
+        }
+        .row {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .fonts {
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            margin-left: -20%;
+        }
+        .bs {
+            position: relative;
+            padding-top: 60px;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        .lan .rps {
+            color: #003791;
+        }
+        .huang .rps {
+            color: rgb(250, 153, 0);
+        }
+        .hong .rps {
+            color: rgb(215, 38, 38);
+        }
+        .fang {
+            padding-left: 23px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px;
+            background-size: 20px;
+            line-height: 17px;
+            -ms-background-position-y: 1px;
+            background-position-y: 1px;
+        }
+        .fang a {
+            margin-top: -2px;
+        }
+        .lan .fang {
+            background-image: url(img/4.png);
+        }
+        .lan .fang a {
+            color: #003791;
+        }
+        .huang .fang a {
+            color: rgb(250, 153, 0);
+        }
+        .huang .fang {
+            background-image: url(img/9.png);
+        }
+        .hong .fang {
+            background-image: url(img/8.png);
+        }
+        .hong .fang a {
+            color: rgb(215, 38, 38);
+        }
+        .xian {
+            width: 90%;
+            height: 1px;
+        }
+        .lan .xian {
+            background: #003791;
+        }
+        .huang .xian {
+            background: rgb(250, 153, 0);
+        }
+        .hong .xian {
+            background: rgb(215, 38, 38);
+        }
+        .gg {
+            padding: 0 25px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .img {
+            margin-bottom: 10px;
+        }
+        .sj {
+            width: 56%;
+            line-height: 30px;
+            position: absolute;
+            bottom: 100px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .xian {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="img/1.png" width="100%" alt="" />
+        <div class="sj">2021年2月24日星期三上午10：00</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            
+           
+            <div class="bs lan ee">
+                <div class="fonts">
+                    <img src="img/7.png" width="100%" alt="" />
+                </div>
+                <p class="fang"><a href="http://shanghai.creb.com.cn/cj/153342.jhtml">中国房地产网 ——深圳建行将“二手房成交参考价”作为按揭贷款依据</a>
+                </p>
+                <p class="gg">2月23日，记者从建设银行深圳市分行获悉，该行将《深圳市住房和建设局关于建立二手住房成交参考价格发布机制的通知》发布的二手住房成交参考价格作为按揭贷款的参考依据，自2月23日起开始执行。据悉，在此之前，光大银行深圳市分行也发出通知，将二手住房成交参考价格作为按揭贷款参考依据。</p>
+
+                <p class="fang"><a href="http://shanghai.creb.com.cn/bdkx/153322.jhtml">中国房地产网——浙江部分银行房贷考核上限调高1个或2个百分点</a>
+                </p>
+                <p class="gg">人民银行杭州中心支行、浙江银保监局近日发布的《关于贯彻落实银行业金融机构房地产贷款集中度管理要求的通知》称，浙江辖内地方法人金融机构房地产贷款集中度管理要求确定如下：以第三档、第四档、第五档房地产贷款集中度管理要求为基准，第三档上限不变，第四档上限增加1个百分点，第五档上限增加2个百分点。</a>
+                </p>
+
+            
+
+
+        </div>
+        <script>
+            function jk() {
+                var banner = document.querySelector(".banner")
+                var sj = document.querySelector(".sj")
+                var bs = document.querySelectorAll(".bs")
+                var fonts = document.querySelectorAll(".fonts")
+                var op = document.querySelectorAll(".fonts>img")
+                var lep = banner.clientHeight / 10
+                var lhp = banner.clientWidth / 40
+                sj.style.lineHeight = lhp * 2 + "px"
+                sj.style.bottom = lep * 1.5 + "px"
+
+                sj.style.fontSize = lhp + "px"
+
+                for (var i = 0; i < op.length; i++) {
+                    var ce = op[i].clientHeight;
+                    bs[i].style.paddingTop = (ce / 2) + 10 + "px"
+                    bs[i].style.paddingBottom = (ce / 2) + 10 + "px"
+                    fonts[i].style.top = -(ce / 2) + "px"
+
+                }
+            }
+            setTimeout("jk()", 100)
+             setInterval(jk, 1000)
+        </script>
+</body>
+
+</html>
