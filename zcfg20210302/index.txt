@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="img/logo.ico" type="img/x-ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我爱我家</title>
+    <link rel="stylesheet" href="css/bootstrap.js" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑'
+        }
+        .banner {
+            width: 100%;
+            position: relative;
+        }
+        .banner>img {
+            display: block;
+        }
+        .container-fluid {
+            background-image: url(img/j1.png);
+            background-size: 100%;
+        }
+        .bs {
+            border-radius: 5px;
+            background-color: #fff;
+            color: #666;
+            margin-bottom: 50px;
+        }
+        .row {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .fonts {
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            margin-left: -20%;
+        }
+       
+        .bs {
+            position: relative;
+            padding-top: 60px;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        .lan .rps {
+            color: #003791;
+        }
+        .huang .rps {
+            color: rgb(250, 153, 0);
+        }
+        .hong .rps {
+            color: rgb(215, 38, 38);
+        }
+        .fang {
+            padding-left: 23px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px;
+            background-size: 20px;
+            line-height: 17px;
+            -ms-background-position-y: 1px;
+            background-position-y: 1px;
+        }
+        .fang a {
+            margin-top: -2px;
+        }
+        .lan .fang {
+            background-image: url(img/4.png);
+        }
+        .lan .fang a {
+            color: #003791;
+        }
+        .huang .fang a {
+            color: rgb(250, 153, 0);
+        }
+        .huang .fang {
+            background-image: url(img/9.png);
+        }
+        .hong .fang {
+            background-image: url(img/8.png);
+        }
+        .hong .fang a {
+            color: rgb(215, 38, 38);
+        }
+        .xian {
+            width: 90%;
+            height: 1px;
+        }
+        .lan .xian {
+            background: #003791;
+        }
+        .huang .xian {
+            background: rgb(250, 153, 0);
+        }
+        .hong .xian {
+            background: rgb(215, 38, 38);
+        }
+        .gg {
+            padding: 0 25px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .img {
+            margin-bottom: 10px;
+        }
+        .sj {
+            width: 56%;
+            line-height: 30px;
+            position: absolute;
+            bottom: 100px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .xian {
+            margin-bottom: 10px;
+        }
+       .div1 {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="img/1.png" width="100%" alt="" />
+        <div class="sj">2021年3月1日星期一上午10：00</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            
+           
+          	  <div class="bs lan ee">
+                <div class="fonts">
+                    <img src="img/2.png" width="100%" alt="" />
+                </div>
+	<p class="fang">暂无资讯</a></p>
+                
+       	 </div>
+	
+	<div class="div1">
+	<div class="bs lan eess">
+                <div class="fonts">
+                    <img src="img/3.png" width="100%" alt="" />
+                </div>
+	<p class="fang"><a href="http://zrzy.wuxi.gov.cn/doc/2021/03/01/3207143.shtml">无锡市自然资源和规划局 ——市局部署 “线上苏小登” 建设重点任务</a></p>
+                <p class="gg">2021年，我局将形成本地“互联网＋不动产登记”专有品牌，依托江苏政务服务网上服务平台、移动端应用，建立统一的网上“一窗办事”平台对外提供线上服务；实现抵押登记、商品房预售、抵押预告登记、不动产登记资料查询等事项“跨省通办”；实现与省厅及市级政府部门的共享数据接口的全面联通，做到应享尽享、集成共享；利用电子签名、电子签章等技术，实现不动产登记业务“一证通办”；继续深化与税务、财政、金融等部门的业务协同，常态化提供“一次收费、后台分账”服务；完善信息平台网络运维环境，落实三级等保、三网分离要求；加大不动产登记电子证照推广力度，使其在办理户籍、子女入学、核税缴税、办电等事项中得到有效应用等等，切实在便民利企方面取得新的突破，为优化营商环境、提升登记便利度提供全方位支撑。</p>
+	
+                <p class="fang"><a href="http://www.qdgjj.com/n28356077/n32565713/210301090959753002.html">青岛住房公积金——市住房公积金管理中心新增两家业务承办银行</a></p>
+                <p class="gg">为进一步提高住房公积金服务效能，市住房公积金管理中心运用市场化思维，通过竞争性选择方式，在原有的8家业务承办银行的基础上，新增恒丰银行、招商银行为公积金业务承办银行，在全市范围内承办住房公积金缴存、提取、贷款等公积金业务，积极拓宽便民服务渠道，助力全市财富管理金融综合改革试验区建设和财富管理、创投风投“两个高地”建设。</p>
+
+                <p class="fang"><a href="http://shanghai.creb.com.cn/cj/153629.jhtml">中国房地产网——上海房贷审批和放款周期延长 普遍需要两三个月</a></p>
+                <p class="gg">自1月21日上海楼市调控新政——“沪十条”出台已逾一个月。证券时报记者多方采访获悉，相比新政出台前，上海房贷审批和放款周期确实有所延长，普遍需要两三个月，与此同时，针对首付款与收入的流水穿透也更为严格。</p>
+                
+	<p class="fang"><a href="http://www.creb.com.cn/cj/153632.jhtml">中国房地产网——东莞楼市调控加码，社保延长，假离婚堵死</a></p>
+                <p class="gg">本次出台的调控措施主要包括六个方面：（一）调整商品住房限购年限。（二）进一步加强房地产金融管理。（三）加强新建商品住房价格指导与监管。（四）强化房地联动调控机制。（五）完善房地产市场监测及信息公开工作。（六）持续规范房地产市场秩序。</p>
+
+	<p class="fang"><a href="http://estate.caijing.com.cn/20210301/4741910.shtml">财经网——深圳官方红头文件严查二手房挂牌价 所有广告均要统一按照参考价发布</a></p>
+                <p class="gg">自深圳市房地产中介协会的行业性提示之后，深圳市住建局正式发布红头文件严控深圳二手房挂牌价格。通知指出，检查内容主要包括两方面，一是各房地产经纪机构在门店、网站及相关网络平台发布的二手住房挂牌价格是否超出二手住房成交参考价格；二是各房地产经纪人员通过微信、QQ等网络平台发布的二手住房价格是否超出二手住房成交参考价格。</p>
+        	</div>
+	</div>
+	
+        <script>
+            function jk() {
+                var banner = document.querySelector(".banner")
+                var sj = document.querySelector(".sj")
+                var bs = document.querySelectorAll(".bs")
+                var fonts = document.querySelectorAll(".fonts")
+                var op = document.querySelectorAll(".fonts>img")
+                var lep = banner.clientHeight / 10
+                var lhp = banner.clientWidth / 40
+                sj.style.lineHeight = lhp * 2 + "px"
+                sj.style.bottom = lep * 1.5 + "px"
+
+                sj.style.fontSize = lhp + "px"
+
+                for (var i = 0; i < op.length; i++) {
+                    var ce = op[i].clientHeight;
+                    bs[i].style.paddingTop = (ce / 2) + 10 + "px"
+                    bs[i].style.paddingBottom = (ce / 2) + 10 + "px"
+                    fonts[i].style.top = -(ce / 2) + "px"
+
+                }
+            }
+            setTimeout("jk()", 100)
+             setInterval(jk, 1000)
+        </script>
+</body>
+
+</html>
