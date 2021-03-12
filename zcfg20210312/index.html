@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="img/logo.ico" type="img/x-ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我爱我家</title>
+    <link rel="stylesheet" href="css/bootstrap.js" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑'
+        }
+        .banner {
+            width: 100%;
+            position: relative;
+        }
+        .banner>img {
+            display: block;
+        }
+        .container-fluid {
+            background-image: url(img/j1.png);
+            background-size: 100%;
+        }
+        .bs {
+            border-radius: 5px;
+            background-color: #fff;
+            color: #666;
+            margin-bottom: 50px;
+        }
+        .row {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .fonts {
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            margin-left: -20%;
+        }
+       
+        .bs {
+            position: relative;
+            padding-top: 60px;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        .lan .rps {
+            color: #003791;
+        }
+        .huang .rps {
+            color: rgb(250, 153, 0);
+        }
+        .hong .rps {
+            color: rgb(215, 38, 38);
+        }
+        .fang {
+            padding-left: 23px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 20px;
+            background-size: 20px;
+            line-height: 17px;
+            -ms-background-position-y: 1px;
+            background-position-y: 1px;
+        }
+        .fang a {
+            margin-top: -2px;
+        }
+        .lan .fang {
+            background-image: url(img/4.png);
+        }
+        .lan .fang a {
+            color: #003791;
+        }
+        .huang .fang a {
+            color: rgb(250, 153, 0);
+        }
+        .huang .fang {
+            background-image: url(img/9.png);
+        }
+        .hong .fang {
+            background-image: url(img/8.png);
+        }
+        .hong .fang a {
+            color: rgb(215, 38, 38);
+        }
+        .xian {
+            width: 90%;
+            height: 1px;
+        }
+        .lan .xian {
+            background: #003791;
+        }
+        .huang .xian {
+            background: rgb(250, 153, 0);
+        }
+        .hong .xian {
+            background: rgb(215, 38, 38);
+        }
+        .gg {
+            padding: 0 25px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .img {
+            margin-bottom: 10px;
+        }
+        .sj {
+            width: 56%;
+            line-height: 30px;
+            position: absolute;
+            bottom: 100px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .xian {
+            margin-bottom: 10px;
+        }
+       .div1 {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="img/1.png" width="100%" alt="" />
+        <div class="sj">2021年3月12日星期五上午10：00</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            
+           
+          	  <div class="bs lan ee">
+                <div class="fonts">
+                    <img src="img/2.png" width="100%" alt="" />
+                </div>
+	<p class="fang">今日无新增资讯</p>
+               
+
+	
+	
+               
+       	 </div>
+	
+	<div class="div1">
+	<div class="bs lan eess">
+                <div class="fonts">
+                    <img src="img/3.png" width="100%" alt="" />
+                </div>
+	 <p class="fang"><a href="http://gjj.beijing.gov.cn/web/zwgk61/xwdt/_300666/10951638/index.html">北京住房公积金管理中心 ——关于对《关于进一步优化住房公积金提取业务的通知（征求意见稿）》公开征集意见的公告</a></p>
+                <p class="gg">为进一步优化营商环境，方便群众办事，同时加强业务风险防控，根据住房城乡建设部《关于开展治理违规提取住房公积金工作的通知》（建金〔2018〕46号）要求，参照《中国银保监会办公厅 中国人民银行办公厅 关于简化提取已故存款人小额存款相关事宜的通知》（银保监办发〔2021〕18号）精神，我中心制定了《关于进一步优化住房公积金提取业务的通知（征求意见稿）》。</p>
+                
+	 <p class="fang"><a href="http://shanghai.creb.com.cn/cj/154565.jhtml">中国房地产网——南京又出新办法，严禁未经批准的“商改住”</a></p>
+                <p class="gg">3月11日，记者从南京市规划资源局获悉，《既有建筑改变使用功能规划建设联合审查办法》将于2021年4月9日施行，严禁未经批准擅自将非住宅建筑改为住宅、酒店式公寓等行为，明确遇到此类情况，无需征求规划资源主管部门意见，建设主管部门直接不予受理施工许可、消防设计审查或消防验收备案。</p>
+
+	
+        	</div>
+	</div>
+	
+        <script>
+            function jk() {
+                var banner = document.querySelector(".banner")
+                var sj = document.querySelector(".sj")
+                var bs = document.querySelectorAll(".bs")
+                var fonts = document.querySelectorAll(".fonts")
+                var op = document.querySelectorAll(".fonts>img")
+                var lep = banner.clientHeight / 10
+                var lhp = banner.clientWidth / 40
+                sj.style.lineHeight = lhp * 2 + "px"
+                sj.style.bottom = lep * 1.5 + "px"
+
+                sj.style.fontSize = lhp + "px"
+
+                for (var i = 0; i < op.length; i++) {
+                    var ce = op[i].clientHeight;
+                    bs[i].style.paddingTop = (ce / 2) + 10 + "px"
+                    bs[i].style.paddingBottom = (ce / 2) + 10 + "px"
+                    fonts[i].style.top = -(ce / 2) + "px"
+
+                }
+            }
+            setTimeout("jk()", 100)
+             setInterval(jk, 1000)
+        </script>
+</body>
+
+</html>
